@@ -1,0 +1,13 @@
+{
+  "name": "echobot/angularphp",
+  "description": "A cross-platform AngularJS/PHP bridge",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Echobot\\": "src/php"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.7"
+  }
+}

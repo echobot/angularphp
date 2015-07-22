@@ -1,0 +1,22 @@
+{
+  "name": "echobot-angularphp",
+  "description": "A PHP-AngularJS bridge",
+  "dependencies": {
+    "grunt": "~0.4.5"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-uglify": "~0.6.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-exec": "~0.4.6",
+    "grunt-phplint": "0.0.5",
+    "grunt-phpunit": "^0.3.6",
+    "jshint": "~2.5.8"
+  },
+  "keywords": [
+    "AngularJS",
+    "PHP"
+  ],
+  "author": "Echobot Media Technologies GmbH",
+  "license": "MIT"
+}
