@@ -12,7 +12,7 @@ composer require echobot/angularphp
 
 ## Usage
 
-In your project framework of choice, set up a route which passes the current request to AngularPHP and which renders the response.  To assist in this, two utility classes exist which achieve this:
+In your project framework of choice, set up a route which passes the current request to AngularPHP and which renders the response.  To assist in this, two utility classes exist which achieve this, depending on what framework you are using.
 
 ### [Laravel](http://laravel.com/)
 
@@ -29,6 +29,10 @@ That snippet serves up all exported classes in the `models` directory, from the 
 ### PHP
 
 The `Echobot\AngularPHP\Endpoints\PHPBuiltIn` class can be used to serve requests based on the `$_SERVER` global variable, which includes most old frameworks and PHP's built-in command-line web server.
+
+### Other Frameworks
+
+One can use the `Echobot\AngularPHP\Endpoints\PHPBuiltIn` as an example to see how the endpoint class extends the `AngularPHP` class in order to improve the ease of use for a given framework.  Using this example, creating a new endpoint for an unsupported framework should be relatively simple.
 
 ## Example
 
